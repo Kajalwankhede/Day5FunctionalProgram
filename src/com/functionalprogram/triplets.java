@@ -8,7 +8,7 @@ public class triplets {
         System.out.println("Enter the size of the array : ");
         int size=sc.nextInt();
         int [] inputArray=new int[size];
-        System.out.println("Enter the elements : ");
+        System.out.println("Enter the Elements : ");
         for(int j=0;j<size;j++){
             inputArray[j]=sc.nextInt();
         }
