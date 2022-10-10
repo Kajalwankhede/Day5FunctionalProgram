@@ -12,7 +12,8 @@ public class Array2D {
         int Columnsize=sc.nextInt();
         int[][] array=new int[Rowsize][Columnsize];
         System.out.println("Enter the Elements: ");
-        for (i=0;i<Rowsize;i++){
+        for (i=0;i<Rowsize;i++)
+        {
             for (j=0;j<Columnsize;j++){
                 array[i][j]=sc.nextInt();
             }
