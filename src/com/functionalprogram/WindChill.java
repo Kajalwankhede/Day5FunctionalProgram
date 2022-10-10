@@ -14,7 +14,7 @@ public class WindChill {
             double product = ((0.4275 * temperature) - 35.75);
             double windChill = 35.74 + (0.6215 * temperature) + (product * speed);
             System.out.println("Wind chill ,W=35.74+0.6215t+(0.4275t-35.75)v^0.16  ");
-            System.out.println("result = " + windChill);
+            System.out.println("RESULT = " + windChill);
         } else
             System.out.println("temperature  should be larger than 50 \n " +
                     "speed should be larger than 120 and less than 3");
