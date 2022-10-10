@@ -12,7 +12,6 @@ public class Distance {
         int power_y=(int) Math.pow(y,2);
         double distance =(power_x+power_y);
         System.out.println("Euclidean distance  : "+distance);
-
     }
     public static void main(String[] args) {
         Distance d= new Distance();
