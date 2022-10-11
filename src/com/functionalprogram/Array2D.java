@@ -7,18 +7,18 @@ public class Array2D {
         System.out.println("Enter The Number of Rows: ");
         Scanner sc=new Scanner(System.in);
         int i,j;
-        int Rowsize = sc.nextInt();
+        int Row = sc.nextInt();
         System.out.println("Enter The Number of Columns : ");
-        int Columnsize=sc.nextInt();
-        int[][] array=new int[Rowsize][Columnsize];
+        int Column=sc.nextInt();
+        int[][] array=new int[Row][Column];
         System.out.println("Enter the Elements: ");
-        for (i=0;i<Rowsize;i++)
+        for (i=0;i<Row;i++)
         {
-            for (j=0;j<Columnsize;j++){
+            for (j=0;j<Column;j++){
                 array[i][j]=sc.nextInt();
             }
         }
-        System.out.println("The 2D Array is: ");
+        System.out.println("The 2-Dimensional Array is: ");
         int row=0,column=0;
         for(i=0;i<array.length;i++){
             for(j=0; j<array.length; j++){
