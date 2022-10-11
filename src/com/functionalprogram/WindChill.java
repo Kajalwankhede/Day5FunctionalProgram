@@ -12,9 +12,9 @@ public class WindChill {
         if ((temp < 50) && ((WindSpeed > 120) || (WindSpeed < 3))) {
             double speed = Math.pow(WindSpeed, 0.16);
             double product = ((0.4275 * temp) - 35.75);
-            double windChill = 35.74 + (0.6215 * temp) + (product * speed);
+            double Windchill = 35.74 + (0.6215 * temp) + (product * speed);
             System.out.println("Wind chill : ");
-            System.out.println("RESULT = " + windChill);
+            System.out.println("RESULT = " + Windchill);
         } else
             System.out.println("temperature  \n " +
                     "speed ");
