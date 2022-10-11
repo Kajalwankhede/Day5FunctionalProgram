@@ -9,14 +9,15 @@ public class WindChill {
         double temp = sc.nextDouble();
         System.out.println("Enter wind speed in miles per hour : ");
         double WindSpeed = sc.nextDouble();
-        if ((temp < 50) && ((WindSpeed > 120) || (WindSpeed < 3))) {
+        if ((temp < 50) && ((WindSpeed > 120) || (WindSpeed < 3)))
+        {
             double speed = Math.pow(WindSpeed, 0.16);
-            double product = ((0.4275 * temp) - 35.75);
-            double Windchill = 35.74 + (0.6215 * temp) + (product * speed);
-            System.out.println("Wind chill : ");
-            System.out.println("RESULT = " + Windchill);
-        } else
-            System.out.println("temperature  \n " +
-                    "speed ");
+            double sum = ((0.4275 * temp) - 35.75);
+            double Windchill = 35.74 + (0.6215 * temp) + (sum * speed);
+            System.out.println("Wind chill : = " + Windchill);
+        }
+        else
+            System.out.println("Invalid Input.Temprature is larger than 50 in absolute value and WindSpeed is larger\n" +
+                    "than 120 or less than 3" );
     }
 }
