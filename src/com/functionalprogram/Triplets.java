@@ -1,7 +1,5 @@
 package com.functionalprogram;
-
 import java.util.Scanner;
-
 public class Triplets {
     public static void main(String[] args){
         Scanner sc =new Scanner(System.in);

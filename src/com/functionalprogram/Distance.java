@@ -1,5 +1,4 @@
 package com.functionalprogram;
-
 import java.util.Scanner;
 public class Distance {
     void display(){

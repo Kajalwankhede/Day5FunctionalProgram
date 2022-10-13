@@ -1,7 +1,5 @@
 package com.functionalprogram;
-
 import java.util.Scanner;
-
 public class WindChill {
     public static void main(String[] args) {
         System.out.println("Enter value of temperature  : ");

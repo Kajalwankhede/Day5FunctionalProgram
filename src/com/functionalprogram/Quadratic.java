@@ -1,9 +1,6 @@
 package com.functionalprogram;
-
 import java.util.Scanner;
-
 import static java.lang.Math.sqrt;
-
 public class Quadratic {
  void display(){
         Scanner scan = new Scanner(System.in);
@@ -19,7 +16,6 @@ public class Quadratic {
         double Root2 = (-b - sqrt(delta)) / (2 * a);
         System.out.println("Root1 : " + Root1 + " Root2 : " + Root2);
     }
-
     public static void main(String[] args) {
         Quadratic q=new Quadratic();
         q.display();
